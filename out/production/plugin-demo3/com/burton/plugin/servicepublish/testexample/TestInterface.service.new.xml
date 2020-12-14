@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service-components>
+  <service-component type="com.burton.plugin.servicepublish.testexample.TestInterface" bean="testInterfaceImpl">
+    <service-method local-name="getTestcc" service-id="com.burton.plugin.servicepublish.testexample.TestInterface.getTestcc" method-name="getTestcc" cacheable="false" category="com.burton.plugin.servicepublish.testexample">
+      <service-parameters>
+        <service-parameter name="req" type="com.burton.plugin.servicepublish.testexample.reqresp.TestReq" required="false" is-array="false"/>
+      </service-parameters>
+      <service-result name="getTestccResult" required="false" is-array="false" type="com.burton.plugin.servicepublish.testexample.reqresp.TestResp"/>
+    </service-method>
+  </service-component>
+</service-components>

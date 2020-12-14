@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<method-configs>
+  <method-config service-id="com.burton.plugin.servicepublish.testexample.TestInterface.getTestcc" type="com.burton.plugin.servicepublish.testexample.TestInterface" method-name="getTestcc"> 
+    <parameter-type type="com.burton.plugin.servicepublish.testexample.reqresp.TestReq"/>
+  </method-config>
+</method-configs>
