@@ -21,6 +21,7 @@ import java.util.Map;
 public class ServicePublish implements ConfigListenersRegistry<ServicePublishConfig> {
     private String serviceXmlPath;
     private String serviceWrapperXmlPath;
+    private String aa;
     private String commonJarPath;
 
     public ServicePublish(ServicePublishConfig settings) {
