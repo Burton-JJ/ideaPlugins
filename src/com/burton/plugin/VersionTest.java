@@ -10,7 +10,6 @@ package com.burton.plugin;
  * <p> 修改记录：程序版本   修改日期    修改人员   修改单号   修改说明
  **********************************/
 public class VersionTest {
-    private String aaa;
     private String bbb;
     private String ccc;
 
