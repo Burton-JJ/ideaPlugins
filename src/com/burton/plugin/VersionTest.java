@@ -15,7 +15,7 @@ public class VersionTest {
     private String ccc;
 
     static {
-        System.out.println("你好");
+        System.out.println("你好");//加master
         System.out.println("你好第二行");
     }
 
