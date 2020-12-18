@@ -21,6 +21,7 @@ public class ServicePublish implements ConfigListenersRegistry<ServicePublishCon
     private String serviceXmlPath;
     private String aa;
     private String serviceWrapperXmlPath;
+    private String aa;
     private String commonJarPath;
 
     public ServicePublish(ServicePublishConfig settings) {
