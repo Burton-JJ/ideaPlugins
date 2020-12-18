@@ -6,7 +6,7 @@ import java.io.IOException;
 
 /*********************************
  * <p> 文件名称: Processor
- * <p> 系统名称：交易银行系统V1.0
+
  * <p> 模块名称：com.burton.plugin.markbook.processor
  * <p> 功能说明: 
  * <p> 开发人员：jiangjun25372

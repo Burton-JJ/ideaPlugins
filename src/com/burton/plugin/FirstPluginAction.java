@@ -9,7 +9,6 @@ import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.ui.MessageType;
 /*********************************
  * <p> 文件名称: FirstPluginAction
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin
  * <p> 功能说明: idea右下角提示
  * <p> 开发人员：jiangjun25372

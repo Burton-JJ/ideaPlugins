@@ -3,19 +3,15 @@ package com.burton.plugin.markbook.dialogs;
 import com.burton.plugin.markbook.data.DataConvert;
 import com.burton.plugin.markbook.data.DateCenter;
 import com.burton.plugin.markbook.data.NoteData;
-import com.burton.plugin.utils.ContentUtil;
-import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.DialogWrapper;
 import com.intellij.ui.EditorTextField;
 import org.jetbrains.annotations.Nullable;
 
 import javax.swing.*;
-import javax.xml.bind.SchemaOutputResolver;
 import java.awt.*;
 
 /*********************************
  * <p> 文件名称: AddNoteDialog
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin.markbook.dialogs
  * <p> 功能说明: 添加MB笔记弹出框
  * <p> 开发人员：jiangjun25372
@@ -25,6 +21,7 @@ import java.awt.*;
 public class AddNoteDialog extends DialogWrapper {
     private EditorTextField tfTitle;
     private EditorTextField tfMark;
+
     public AddNoteDialog() {
         super(true);
         setTitle("添加笔记注释");
@@ -33,6 +30,7 @@ public class AddNoteDialog extends DialogWrapper {
 
     /**
      * 弹出框中间部分
+     *
      * @return
      */
     @Nullable
@@ -49,6 +47,7 @@ public class AddNoteDialog extends DialogWrapper {
 
     /**
      * 弹出框下边部分（按钮）
+     *
      * @return
      */
     @Override

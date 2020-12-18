@@ -13,7 +13,6 @@ import java.util.Map;
 
 /*********************************
  * <p> 文件名称: ServicePublishConfigurable
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin.servicepublish.settings
  * <p> 功能说明: 继承自SearchableConfigurable就能显示在setting
  * <p> 开发人员：jiangjun25372

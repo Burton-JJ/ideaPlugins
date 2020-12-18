@@ -25,7 +25,7 @@ import java.util.List;
 
 /*********************************
  * <p> 文件名称: ServicePublishUtil
- * <p> 系统名称：交易银行系统V1.0
+
  * <p> 模块名称：com.burton.plugin.servicepublish.utils
  * <p> 功能说明: 服务发布工具类
  * <p> 开发人员：jiangjun25372

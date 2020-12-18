@@ -5,7 +5,6 @@ import com.burton.plugin.servicepublish.testexample.reqresp.TestResp;
 
 /*********************************
  * <p> 文件名称: TestInterface
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin
  * <p> 功能说明: 
  * <p> 开发人员：jiangjun25372

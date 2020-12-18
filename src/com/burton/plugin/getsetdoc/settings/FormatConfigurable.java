@@ -10,7 +10,7 @@ import javax.swing.*;
 
 /*********************************
  * <p> 文件名称: FormatConfigurable
- * <p> 系统名称：交易银行系统V1.0
+
  * <p> 模块名称：com.burton.plugin.getsetdoc.settings
  * <p> 功能说明: 集成SearchableConfigurable实现createComponent方法创建的Jcomponent会展示在settings面板上
  * <p> 开发人员：jiangjun25372

@@ -7,17 +7,12 @@ import com.intellij.openapi.components.Storage;
 import com.intellij.util.xmlb.XmlSerializerUtil;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
-import com.intellij.util.xmlb.annotations.Transient;
-import org.apache.commons.lang3.StringUtils;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /*********************************
  * <p> 文件名称: ServicePublishConfig
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin.servicepublish.settings
  * <p> 功能说明: 保存设置中的配置
  * <p> 开发人员：jiangjun25372
@@ -30,14 +25,15 @@ public class ServicePublishConfig implements PersistentStateComponent<ServicePub
 //    @Transient
 //    private List<ConfigListenersRegistry> registries = new ArrayList<>();
 
-
+    /**
+     * 构造方法 --选择框默认显示文字设置
+     */
     public ServicePublishConfig() {
         loadDefaultSettings();
     }
 
 
     public static ServicePublishConfig getInstance() {
-
         return ServiceManager.getService(ServicePublishConfig.class);
     }
 
@@ -45,7 +41,7 @@ public class ServicePublishConfig implements PersistentStateComponent<ServicePub
     /**
      * 组件加载时读入数据
      * 返回当前组件的state
-     *
+     * <p>
      * 修改配置项后会调用这个方法 this便会是新的配置
      *
      * @return
@@ -59,9 +55,10 @@ public class ServicePublishConfig implements PersistentStateComponent<ServicePub
     /**
      * 组件关闭时存入数据
      * 新的组件状态被加载时，调用该方法，如果IDE运行期间，保存数据的文件被从外部修改，则该方法会被再次调用
-     *
-     *
+     * <p>
+     * <p>
      * 配置修改后重新读取配置
+     *
      * @param servicePublishConfig
      */
     @Override
@@ -71,6 +68,9 @@ public class ServicePublishConfig implements PersistentStateComponent<ServicePub
         //setConfigResult(servicePublishConfig.getConfigResult());
     }
 
+    /**
+     * 默认文字设置
+     */
     private void loadDefaultSettings() {
         this.configResult = new HashMap<>();
         configResult.put("serviceXmlPath", "待填写");

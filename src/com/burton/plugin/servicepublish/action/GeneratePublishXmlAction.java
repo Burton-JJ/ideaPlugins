@@ -39,10 +39,10 @@ public class GeneratePublishXmlAction extends AnAction {
     private NotificationGroup notificationGroup = new NotificationGroup("servicePublish_id", NotificationDisplayType.BALLOON, true);
 
     @Override
-    public void actionPerformed(AnActionEvent e) {
+    public void actionPerformed(final AnActionEvent e) {
         //获取配置
         ServicePublishConfig servicePublishConfig = ServiceManager.getService(ServicePublishConfig.class);
-        Map<String, String> configMap = servicePublishConfig.getConfigResult();
+        final Map<String, String> configMap = servicePublishConfig.getConfigResult();
 
         //动态加载common jar包
         try {
@@ -66,7 +66,7 @@ public class GeneratePublishXmlAction extends AnAction {
         String completeServiceName = servicePackageName + "." + serviceName;
         //获取接口的方法列表
         PsiMethod[] methods = c.getMethods();
-        List<TbspInterfaceMethodInfo> interfaceMethodInfoList = new ArrayList<>();
+        final List<TbspInterfaceMethodInfo> interfaceMethodInfoList = new ArrayList<>();
         for (PsiMethod method : methods) {
             TbspInterfaceMethodInfo methodInfo = new TbspInterfaceMethodInfo();
             //方法名

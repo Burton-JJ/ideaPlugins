@@ -11,7 +11,6 @@ import java.util.Map;
 
 /*********************************
  * <p> 文件名称: ServicePublish
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin.servicepublish
  * <p> 功能说明: 
  * <p> 开发人员：jiangjun25372
@@ -20,13 +19,13 @@ import java.util.Map;
  **********************************/
 public class ServicePublish implements ConfigListenersRegistry<ServicePublishConfig> {
     private String serviceXmlPath;
+    private String aa;
     private String serviceWrapperXmlPath;
     private String commonJarPath;
 
     public ServicePublish(ServicePublishConfig settings) {
         List<ConfigListenersRegistry> servicePublish = new ArrayList<>();
         servicePublish.add(this);
-        //settings.registries(servicePublish);
         init(settings);
     }
 

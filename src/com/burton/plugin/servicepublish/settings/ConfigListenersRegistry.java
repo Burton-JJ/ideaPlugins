@@ -2,7 +2,6 @@ package com.burton.plugin.servicepublish.settings;
 
 /*********************************
  * <p> 文件名称: ConfigListenersRegistry
- * <p> 系统名称：交易银行系统V1.0
  * <p> 模块名称：com.burton.plugin.servicepublish.settings
  * <p> 功能说明: 监听配置变化的回调接口
  * <p> 开发人员：jiangjun25372
@@ -12,6 +11,7 @@ package com.burton.plugin.servicepublish.settings;
 public interface ConfigListenersRegistry<T> {
     /**
      * 根据配置刷新资源
+     *
      * @param settings
      * @return
      */

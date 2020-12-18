@@ -2,7 +2,7 @@ package com.burton.plugin.markbook.data;
 
 /*********************************
  * <p> 文件名称: DataConvert
- * <p> 系统名称：交易银行系统V1.0
+
  * <p> 模块名称：com.burton.plugin.markbook.data
  * <p> 功能说明: 
  * <p> 开发人员：jiangjun25372
