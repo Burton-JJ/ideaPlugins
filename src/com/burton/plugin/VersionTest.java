@@ -16,6 +16,7 @@ public class VersionTest {
 
     static {
         System.out.println("你好");//master测试
+        //master加一行
         System.out.println("你好第二行");
     }
 
