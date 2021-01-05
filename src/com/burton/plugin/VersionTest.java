@@ -16,6 +16,7 @@ public class VersionTest {
 
     static {
         System.out.println("你好");//master分支修改18行
+        //master分支加一行
         System.out.println("你好第二行");
     }
 
