@@ -15,7 +15,7 @@ public class VersionTest {
     private String ccc;
 
     static {
-        System.out.println("你好");
+        System.out.println("你好");//dev分支修改18行
         System.out.println("你好第二行");
     }
 
